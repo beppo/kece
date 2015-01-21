@@ -1,17 +1,22 @@
 Kece a friend
+
 Main Success Scenario
 1- User navigates to friend that he/she wants to kece
 2- User clicks on kece button
 3- System tags friend as kece
 4- User is notified that friend is now kece
 5- Friend is notified that he/she is now kece
+
 Extensions
-2a: User himself/herself is kece
+3a: User himself/herself is kece
     1- User is notified that he/she can not kece while user himself/herself is kece
-2b: Friend is already kece
+3b: Friend is already kece
     1- User is notified that he/she can not kece a friend who is already kece
-3a: Friend prevents kece
+3c: User is preventing kece's
+    1- Prevent kece lifted on user
+    2- Continue with step 3 in MSS
+3e: Friend prevents kece
     1- Notify user that friend prevented kece
     2- Notify friend that user has tried to kece him/her
-3b: Friend attempted to kece user first
+3f: Friend attempted to kece user first
     1- Notify user that friend friend acted first and he/she is now kece
