@@ -1,0 +1,9 @@
+Prevent kece
+
+Main Success Scenario
+1- User clicks prevent kece button
+2- All further kece's are prevented
+
+Extensions
+2a- User is kece
+	1- User is notified that user has to get kece undone before he can prevent further keces
