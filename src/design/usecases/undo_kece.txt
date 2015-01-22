@@ -4,3 +4,7 @@ Main success scenario
 1- User clicks undo kece on the friend
 2- Friends kece is removed
 3- Friend notified that this user has undone his/her kece
+
+Extensions
+2a User is kece
+	1- User is notified that it is not possible to undo friends kece if user himself is kece
