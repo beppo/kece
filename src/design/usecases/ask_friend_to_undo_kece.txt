@@ -1,0 +1,18 @@
+Ask friend to undo kece
+
+Main success scenario
+1- User clicks on ask friend to undo kece button
+2- Friend sees request
+3- Friends clicks undo kece on user
+4- User's kece is undone
+5- User is notified
+
+Extensions
+2a Friend is kece
+	1- User notified that friend is kece therefore can't undo kece
+	2- Return to step 1 in MSS
+1a All user friends are kece
+	1- User asks a friend that doesn't take part in kece
+	2- Friend sees request
+	3- Friend installs app
+	4- Continue with step 3 in MSS
