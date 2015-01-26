@@ -3,10 +3,13 @@ Invite friend to take part in the kece
 Main Success Scenario
 1- User clicks invite friend button
 2- System displays all inviteable friends
-3- User edit messages
-4- User clicks send
+3- User chooses one or more friend to invite
+4- System displays invite messages default text
+5- User edit messages
+6- User clicks send message
+7- Message is send to friend
 
 Extensions
-3a. User is happy with default message
+5a. User is happy with default message
     1- Continue with step 4 in main success scenario
 
