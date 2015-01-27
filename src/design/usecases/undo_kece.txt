@@ -3,7 +3,7 @@ Undo kece
 Main success scenario
 1- User clicks undo kece on the friend
 2- Friends kece is removed
-3- Friend notified that this user has undone his/her kece
+3- Friend is notified through social site that this user has undone his/her kece
 
 Extensions
 2a User is kece

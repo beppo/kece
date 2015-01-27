@@ -5,7 +5,7 @@ Main Success Scenario
 2- User clicks on kece button
 3- System tags friend as kece
 4- User is notified that friend is now kece
-5- Friend is notified that he/she is now kece
+5- System notifies friend through social site that he/she is now kece
 
 Extensions
 3a: User himself/herself is kece
