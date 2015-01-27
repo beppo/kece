@@ -2,14 +2,17 @@ Invite friend to take part in the kece
 
 Main Success Scenario
 1- User clicks invite friend button
-2- System displays all inviteable friends
-3- User chooses one or more friend to invite
-4- System displays invite messages default text
-5- User edit messages
-6- User clicks send message
-7- Message is send to friend
+2- System request friends that don't take part kece from social site
+3- System displays all inviteable friends
+4- User chooses one or more friend to invite
+5- System displays invite messages default text
+6- User edit messages
+7- User clicks send message
+8- System sends message to friend through his social site
 
 Extensions
+3a. User has no invitable friend
+	1- User can't invite friend
 5a. User is happy with default message
     1- Continue with step 4 in main success scenario
 
