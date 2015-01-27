@@ -6,4 +6,4 @@ Main Success Scenario
 
 Extensions
 2a- User is kece
-	1- User is notified that user has to get kece undone before he can prevent further keces
+	1- User is notified that user has to get his kece undone before he can prevent further keces
