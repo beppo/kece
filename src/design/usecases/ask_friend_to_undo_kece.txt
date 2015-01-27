@@ -2,7 +2,7 @@ Ask friend to undo kece
 
 Main success scenario
 1- User clicks on ask friend to undo kece button
-2- System sents undo kece request to friends social site
+2- System sends undo kece request to friends social site
 3- Friend sees undo kece request
 4- Friends accept undo kece request
 5- System is notified by social site that undo kece request is accepted
