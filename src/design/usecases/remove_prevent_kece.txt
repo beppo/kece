@@ -1,0 +1,11 @@
+Prevent kece
+
+Main Success Scenario
+1- User clicks disable prevent kece button
+2- All further kece's are allowed
+
+Extensions
+1a User keces friend 
+	1- Continue with step 2 in MSS
+2a- User is kece
+	1- User is notified that user has to get his kece undone before he can prevent further keces

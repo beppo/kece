@@ -11,10 +11,12 @@ Main success scenario
 
 Extensions
 1a All user friends are kece
-	1- Kece undone after some time out
+	1- All kece's undone after one day automatically
 2a Friend is kece
 	1- User notified that friend is kece therefore can't undo kece
 	2- Return to step 1 in MSS
 4a Friend doesn't accept kece request
 	1- System is notified by social site that undo kece request was declined
 	2- System notifies user that friend has declined his request
+4b Friend never responds to request
+	1- Nothing happens
