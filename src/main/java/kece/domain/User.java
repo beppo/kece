@@ -39,21 +39,4 @@ public class User {
     public void setAllowKece(boolean allowKece) {
         this.allowKece = allowKece;
     }
-
-    public boolean keceFriend(User friend) {
-        User user = this;
-        if (user.isKece()) {
-            throw new UserIsKeceException();
-        }
-        if (!user.allowKece()) {
-            user.setAllowKece(true);
-        }
-        if (friend.isKece()) {
-            throw new FriendIsKeceException();
-        }
-        if (!friend.allowKece()) {
-            throw new FriendDoesNotAllowKeceException();
-        }
-        return friend.setKece(true);
-    }
 }
