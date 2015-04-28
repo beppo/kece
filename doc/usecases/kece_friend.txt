@@ -18,5 +18,5 @@ Extensions
 3e: Friend prevents kece
     1- Notify user that friend prevented kece
     2- Notify friend that user has tried to kece him/her
-3f: Friend attempted to kece user first
+3f: Friend attempted to kece user first (This should never happen and should revert to 3a)
     1- Notify user that friend friend acted first and he/she is now kece
