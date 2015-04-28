@@ -1,15 +1,19 @@
 package kece.domain;
 
+import kece.oose.Entity;
+
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+@Entity
 public class User {
-    private AtomicBoolean kece;
-    private HashMap<SocialSite, List<User>> friends;
-    private boolean allowKece;
+    private final AtomicBoolean kece = new AtomicBoolean();
+    private Map<SocialSite, List<User>> friends = new ConcurrentHashMap<>();
+    private boolean allowKece = true;
 
     public List<User> getFriends(SocialSite site) {
         return friends.get(site);

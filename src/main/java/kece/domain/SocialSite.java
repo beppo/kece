@@ -1,5 +1,8 @@
 package kece.domain;
 
+import kece.oose.Entity;
+
+@Entity
 public interface SocialSite {
     /**
      * Notifies user by available means that he/she has been keceed by a friend.
