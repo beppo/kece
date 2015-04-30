@@ -12,8 +12,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Entity
 public class User {
     private final AtomicBoolean kece = new AtomicBoolean();
-    private Map<SocialSite, List<User>> friends = new ConcurrentHashMap<>();
     private boolean allowKece = true;
+    private transient Map<SocialSite, List<User>> friends = new ConcurrentHashMap<>();
 
     public List<User> getFriends(SocialSite site) {
         return friends.get(site);

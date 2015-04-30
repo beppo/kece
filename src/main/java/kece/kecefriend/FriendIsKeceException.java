@@ -1,4 +1,4 @@
-package kece.domain;
+package kece.kecefriend;
 
 public class FriendIsKeceException extends RuntimeException {
 }
