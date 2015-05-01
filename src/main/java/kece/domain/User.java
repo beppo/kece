@@ -1,6 +1,6 @@
 package kece.domain;
 
-import kece.oose.Entity;
+import kece.oose.EntityObject;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-@Entity
+@EntityObject
 public class User {
     private final AtomicBoolean kece = new AtomicBoolean();
     private boolean allowKece = true;

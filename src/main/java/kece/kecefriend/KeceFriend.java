@@ -2,9 +2,9 @@ package kece.kecefriend;
 
 import kece.dao.UserDAO;
 import kece.domain.*;
-import kece.oose.Control;
+import kece.oose.ControlObject;
 
-@Control
+@ControlObject
 public class KeceFriend {
     private final UserDAO userDAO;
 
