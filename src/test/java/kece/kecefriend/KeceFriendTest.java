@@ -44,19 +44,6 @@ public class KeceFriendTest {
     }
 
     @Test
-    public void keceingFriendsDisablePreventKece() {
-        user.setAllowKece(false);
-        keceFriend.keceFriend(user, friend, socialSite);
-        assertTrue(user.allowKece());
-    }
-
-    @Test(expected = FriendDoesNotAllowKeceException.class)
-    public void friendDoesNotAllowKece(){
-        friend.setAllowKece(false);
-        keceFriend.keceFriend(user, friend, socialSite);
-    }
-
-    @Test
     public void friendIsKece(){
         keceFriend.keceFriend(user,friend,socialSite);
         assertTrue(friend.isKece());

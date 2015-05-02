@@ -1,7 +1,9 @@
 package kece.kecefriend;
 
+import kece.dao.Transactional;
 import kece.dao.UserDAO;
-import kece.domain.*;
+import kece.domain.SocialSite;
+import kece.domain.User;
 import kece.oose.ControlObject;
 
 @ControlObject
@@ -12,27 +14,17 @@ public class KeceFriend {
         this.userDAO = userDAO;
     }
 
+    @Transactional
     public void keceFriend(User user, User friend, SocialSite socialSite) {
-        if (keceFriend(user, friend)) {
-            userDAO.save(friend);
-            socialSite.userKeceed(friend, user);
-        }
-    }
-
-    //@Transactional
-    private boolean keceFriend(User user, User friend) {
         if (user.isKece()) {
             throw new UserIsKeceException();
-        }
-        if (!user.allowKece()) {
-            user.setAllowKece(true);
         }
         if (friend.isKece()) {
             throw new FriendIsKeceException();
         }
-        if (!friend.allowKece()) {
-            throw new FriendDoesNotAllowKeceException();
+        if (friend.setKece(true)) {
+            userDAO.save(friend);
+            socialSite.userKeceed(friend, user);
         }
-        return friend.setKece(true);
     }
 }

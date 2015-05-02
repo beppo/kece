@@ -12,11 +12,3 @@ Extensions
     1- User is notified that he/she can not kece while user himself/herself is kece
 3b: Friend is already kece
     1- User is notified that he/she can not kece a friend who is already kece
-3c: User is preventing kece's
-    1- Prevent kece lifted on user
-    2- Continue with step 3 in MSS
-3e: Friend prevents kece
-    1- Notify user that friend prevented kece
-    2- Notify friend that user has tried to kece him/her
-3f: Friend attempted to kece user first (This should never happen and should revert to 3a)
-    1- Notify user that friend friend acted first and he/she is now kece
