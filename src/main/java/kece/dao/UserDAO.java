@@ -9,7 +9,7 @@ public interface UserDAO {
      *
      * @param user
      */
-    void save(User user);
+    void update(User user);
 
     /**
      * Find and returns user. A user can have multiple social site accounts and same user should be accessible through any of the accounts.

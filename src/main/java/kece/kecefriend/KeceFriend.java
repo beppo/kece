@@ -23,7 +23,7 @@ public class KeceFriend {
             throw new FriendIsKeceException();
         }
         if (friend.setKece(true)) {
-            userDAO.save(friend);
+            userDAO.update(friend);
             socialSite.userMadeKece(friend, user);
         }
     }
