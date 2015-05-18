@@ -1,5 +1,6 @@
 package kece.kecefriend;
 
+import kece.UserIsKeceException;
 import kece.dao.Transactional;
 import kece.dao.UserDAO;
 import kece.domain.SocialSite;

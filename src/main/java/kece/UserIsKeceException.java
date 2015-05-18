@@ -1,4 +1,4 @@
-package kece.kecefriend;
+package kece;
 
 public class UserIsKeceException extends RuntimeException {
 }
