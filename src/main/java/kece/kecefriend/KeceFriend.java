@@ -24,7 +24,7 @@ public class KeceFriend {
         }
         if (friend.setKece(true)) {
             userDAO.save(friend);
-            socialSite.userKeceed(friend, user);
+            socialSite.userMadeKece(friend, user);
         }
     }
 }
