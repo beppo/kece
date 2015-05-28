@@ -1,4 +1,4 @@
-package kece;
+package kece.eventcapture;
 
 import com.google.common.eventbus.EventBus;
 import kece.domain.SocialSite;
