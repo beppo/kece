@@ -10,19 +10,19 @@ public class UsersKeceUndone {
     /**
      * User who was kece previously
      */
-    private final User kece;
+    private final User user;
     /**
-     * Users friend who undone users kece.
+     * Friend who undone users kece.
      */
-    private final User acan;
+    private final User friend;
     /**
      * The social site on which friend undone user kece.
      */
     private final SocialSite socialSite;
 
-    public UsersKeceUndone(User kece, User acan, SocialSite socialSite) {
-        this.kece = kece;
-        this.acan = acan;
+    public UsersKeceUndone(User user, User friend, SocialSite socialSite) {
+        this.user = user;
+        this.friend = friend;
         this.socialSite = socialSite;
     }
 }

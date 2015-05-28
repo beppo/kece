@@ -10,21 +10,21 @@ public class UserMadeKece {
     /**
      * User that is kece now.
      */
+    private final User user;
 
-    private final User kece;
     /**
-     * User that made kece.
+     * Users friend that made him/her kece.
      */
-    private final User keceleyen;
+    private final User friend;
 
     /**
      * Social site on which kece has happened.
      */
     private final SocialSite socialSite;
 
-    public UserMadeKece(User kece, User keceleyen, SocialSite socialSite) {
-        this.kece = kece;
-        this.keceleyen = keceleyen;
+    public UserMadeKece(User user, User friend, SocialSite socialSite) {
+        this.user = user;
+        this.friend = friend;
         this.socialSite = socialSite;
     }
 }

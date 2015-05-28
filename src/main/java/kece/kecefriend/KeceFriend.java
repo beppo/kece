@@ -5,6 +5,7 @@ import kece.dao.Transactional;
 import kece.dao.UserDAO;
 import kece.domain.SocialSite;
 import kece.domain.User;
+import kece.domain.events.UserMadeKece;
 import kece.oose.ControlObject;
 
 @ControlObject
