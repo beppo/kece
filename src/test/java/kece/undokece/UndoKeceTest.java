@@ -12,7 +12,6 @@ import org.mockito.runners.MockitoJUnitRunner;
 import  static org.mockito.Mockito.*;
 import java.util.Collections;
 
-
 @RunWith(MockitoJUnitRunner.class)
 public class UndoKeceTest {
     @Mock private UserDAO userDAO;

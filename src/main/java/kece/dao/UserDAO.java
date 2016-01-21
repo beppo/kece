@@ -15,7 +15,7 @@ public interface UserDAO {
      * Find and returns user. A user can have multiple social site accounts and same user should be accessible through any of the accounts.
      *
      * @param socialSite the site
-     * @param userId     id with which user is identified on the site
+     * @param userId     id with which user is identified on the social site
      * @return the user
      */
     User findUser(SocialSite socialSite, String userId);

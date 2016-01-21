@@ -15,8 +15,8 @@ public interface SocialSite {
     /**
      * Notifies by means available that user kece is undone. This notification should be visible to all shared friends.
      *
-     * @param friend user who was kece previously
+     * @param user user who was kece previously
      * @param by     user who removed friends kece
      */
-    void usersKeceUndone(User friend, User by);
+    void usersKeceUndone(User user, User by);
 }
