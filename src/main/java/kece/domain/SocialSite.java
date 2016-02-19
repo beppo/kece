@@ -19,4 +19,13 @@ public interface SocialSite {
      * @param by     user who removed friends kece
      */
     void usersKeceUndone(User user, User by);
+
+    /**
+     * Fetches user status from social site.
+     * 
+     * @param user the user whose status is being checked
+     * @return true if user is kece, false otherwise
+     */
+	boolean isUserKece(User user);
+	
 }

@@ -1,0 +1,11 @@
+User login
+
+Main Success Scenario
+1- User leaves application
+2- Application notifies backend that user user has left
+3- Backend remove user
+
+Extensions
+2a: Application never get message that user logout
+	1- Application tries to fetch user status periodically
+	2- If user not online then remove it from repository

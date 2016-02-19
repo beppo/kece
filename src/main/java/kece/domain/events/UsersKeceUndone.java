@@ -11,10 +11,12 @@ public class UsersKeceUndone {
      * User who was kece previously
      */
     private final User user;
+    
     /**
      * Friend who undone users kece.
      */
     private final User friend;
+    
     /**
      * The social site on which friend undone user kece.
      */

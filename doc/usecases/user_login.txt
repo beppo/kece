@@ -1,0 +1,13 @@
+User login
+
+Main Success Scenario
+1- User logs into SocialSite
+2- User starts application
+3- Application fetches user from social site
+4- Application fetches user status
+
+Extensions
+3a: User can not be fetched
+	1- Application notifies user and returns
+4-a: User status can not be fetched
+	1- User get default status as not keceed 

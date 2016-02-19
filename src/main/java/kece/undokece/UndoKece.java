@@ -1,7 +1,6 @@
 package kece.undokece;
 
 import kece.UserIsKeceException;
-import kece.dao.Transactional;
 import kece.dao.UserDAO;
 import kece.domain.SocialSite;
 import kece.domain.User;
@@ -13,8 +12,7 @@ public class UndoKece {
         this.userDAO = userDAO;
     }
 
-    @Transactional
-    public void undoKece(User user, User friend, SocialSite socialSite) throws UserIsKeceException {
+	public void undoKece(User user, User friend, SocialSite socialSite) throws UserIsKeceException {
         if (user.isKece()) {
             throw new UserIsKeceException();
         }

@@ -1,7 +1,6 @@
 package kece.kecefriend;
 
 import kece.UserIsKeceException;
-import kece.dao.Transactional;
 import kece.dao.UserDAO;
 import kece.domain.SocialSite;
 import kece.domain.User;
@@ -15,7 +14,6 @@ public class KeceFriend {
         this.userDAO = userDAO;
     }
 
-    @Transactional
     public void keceFriend(User user, User friend, SocialSite socialSite) {
         if (user.isKece()) {
             throw new UserIsKeceException();
