@@ -6,7 +6,7 @@ import kece.domain.User;
 /**
  * An event fired whenever a users kece is undone.
  */
-public class UsersKeceUndone {
+public class UsersKeceUndone extends Event{
     /**
      * User who was kece previously
      */
@@ -27,4 +27,17 @@ public class UsersKeceUndone {
         this.friend = friend;
         this.socialSite = socialSite;
     }
+
+	public User getUser() {
+		return user;
+	}
+
+	public User getFriend() {
+		return friend;
+	}
+
+	public SocialSite getSocialSite() {
+		return socialSite;
+	}
+    		
 }

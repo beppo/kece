@@ -6,7 +6,7 @@ import kece.domain.User;
 /**
  * An event fired whenever a user is made kece.
  */
-public class UserMadeKece {
+public class UserMadeKece extends Event{
     /**
      * User that is kece now.
      */
@@ -27,4 +27,16 @@ public class UserMadeKece {
         this.friend = friend;
         this.socialSite = socialSite;
     }
+
+	public User getUser() {
+		return user;
+	}
+
+	public User getFriend() {
+		return friend;
+	}
+
+	public SocialSite getSocialSite() {
+		return socialSite;
+	}
 }
